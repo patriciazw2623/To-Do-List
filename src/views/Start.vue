@@ -1,9 +1,16 @@
 <template>
-    <div id="start">
+    <div class="start">
         Hi! Welcome to the To-do list webpage. 
-        To start using the list, click on the "Start" button. 
+    </div>
+    <div class="start">
+        To start using the to-do list, click on the "Start" button. 
+    </div>
+    <div class="start">
         For more information about the webpage, click on "About".
-        <button @click="start">Start</button>
+    </div>
+    <div class="btn">
+        <button  @click="start">Start</button>
+        &nbsp;
         <button @click="about">About</button>
     </div>
 </template>
@@ -32,22 +39,16 @@
     })
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#start {
-  padding: 30px;
 
-  a {
-    font-weight: bold;
-    font-size: 20px;
-    color: hsl(0, 0%, 0%);
+<style scoped lang = 'scss'>
+  .start {
+    font-size: 15px;
+    margin-bottom:6px;
+    .btn {
+      margin-top: 10px;
+      font-size: 15px;
+      height: 25px;
+    }
   }
-}
 </style>

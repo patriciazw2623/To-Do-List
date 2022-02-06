@@ -1,6 +1,8 @@
 <template>
-  <div class="about" id="nav">
-    <h1>This is an about page</h1>
+  <div class="container">
+    This is an online to-do list built with vue 3.0. <br> The list enables users to update their to-do task list by: <br> - adding new tasks <br>- marking tasks as complete/incomplete <br>- deleting completed tasks.
+  </div>
+  <div class="btn">
     <button @click = 'back'>Back to the previous page</button>
   </div>
 </template>
@@ -21,3 +23,18 @@ export default defineComponent({
   }
 })
 </script>
+
+<style scoped lang = 'scss'>
+  .container {
+    margin-top: 10px;
+    margin-left: 35%;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 15px;
+    .btn {
+      font-size: 15px;
+      height: 25px;
+      margin-left: 10px;
+    }
+  }
+</style>
