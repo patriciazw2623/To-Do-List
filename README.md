@@ -1,4 +1,4 @@
-# todolist
+# TO-Do List
 
 ## Introduction 
 This is an online to-do list built with vue 3.0. <br> The list enables users to update their to-do task list by: <br> - adding new tasks <br>- marking tasks as complete/incomplete <br>- deleting completed tasks.
